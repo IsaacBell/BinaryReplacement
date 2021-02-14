@@ -1,0 +1,15 @@
+a.out
+deneme*
+*input*
+*output*
+old-versions*
+decompress
+compress
+Decompressor*
+Compressor*
+*.dSYM*
+*.dSYM/*
+binary_replacement
+BinaryReplacement
+compress
+decompress
