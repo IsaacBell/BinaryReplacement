@@ -11,8 +11,8 @@
         "-std=c++17",
         "-stdlib=libc++",
         "-g",
-        "BinaryReplacement.cpp",
-        "src/BinaryStringTranslation.cpp",
+        "src/MyFrame2.cpp",
+        "`wx-config --libs --cxxflags`",
         "-o",
         "BinaryReplacement"
       ],

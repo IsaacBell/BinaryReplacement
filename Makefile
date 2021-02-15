@@ -1,8 +1,11 @@
-all : binary_replacement
+all : my_frame
 # all : compress decompress binary_replacement
 
-binary_replacement : BinaryReplacement.cpp
-	g++ -std=c++14 BinaryReplacement.cpp src/BinaryStringTranslation.cpp -o BinaryReplacement	
+my_frame : MyFrame2.cpp
+	g++ -std=c++14 src/MyFrame2.cpp `wx-config --libs --cxxflags` -o my_frame
+
+# binary_replacement : BinaryReplacement.cpp
+# 	g++ -std=c++14 BinaryReplacement.cpp src/BinaryStringTranslation.cpp -o BinaryReplacement	
 
 # compress : Compressor.cpp
 # 	g++ -std=c++14 Compressor.cpp -o compress
